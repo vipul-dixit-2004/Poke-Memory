@@ -1,0 +1,15 @@
+body{
+    background-image: url("assets/pokemon-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{
+    border-radius: 30px;
+}
+.card:hover{
+    /* hover:scale-110 hover:drop-shadow-2xl  */
+    transform: scale(1.1);
+    box-shadow: 10px 4px 100px whitesmoke;
+
+}
